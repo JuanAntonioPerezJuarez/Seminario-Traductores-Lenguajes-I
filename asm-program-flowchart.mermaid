@@ -1,0 +1,36 @@
+flowchart TD
+    A[Inicio del Programa] --> B[Inicializar Datos]
+    B --> C[Llamar Procedimiento Calculadora]
+    C --> D[Mostrar Mensaje: Primer Número]
+    D --> E[Leer Primer Número]
+    E --> F[Mostrar Mensaje: Segundo Número]
+    F --> G[Leer Segundo Número]
+    
+    G --> H{Operación Aritmética}
+    H --> |Suma| I[Realizar Suma]
+    H --> |Resta| J[Realizar Resta]
+    H --> |Multiplicación| K[Realizar Multiplicación]
+    H --> |División| L[Realizar División]
+    H --> |Potencia| M[Realizar Potenciación]
+    
+    I --> N[Mostrar Resultado de Suma]
+    J --> O[Mostrar Resultado de Resta]
+    K --> P[Mostrar Resultado de Multiplicación]
+    L --> Q[Mostrar Resultado de División]
+    M --> R[Mostrar Resultado de Potencia]
+    
+    R --> S[Llamar Procedimiento Trigonometría]
+    N --> S
+    O --> S
+    P --> S
+    Q --> S
+    
+    S --> T[Mostrar Mensaje: Ángulo en Grados]
+    T --> U[Leer Ángulo]
+    U --> V[Calcular Seno]
+    V --> W[Calcular Coseno]
+    W --> X[Mostrar Resultado de Seno]
+    X --> Y[Mostrar Resultado de Coseno]
+    Y --> Z[Graficar Funciones Trigonométricas]
+    
+    Z --> AA[Fin del Programa]
